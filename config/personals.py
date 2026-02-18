@@ -33,14 +33,14 @@ Note: If left empty as "", the bot will fill in location of jobs location.
 '''
 
 # Address, not so common question but some job applications make it required!
-street = "Salt Lake Secto 5"
+street = "Salt Lake Sector 5"
 state = "West Bengal"
 zipcode = "700001"
 country = "India"
 
 ## US Equal Opportunity questions
 # What is your ethnicity or race? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
-ethnicity = "Indian"              # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
+ethnicity = "Decline"              # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
 
 # How do you identify yourself? If left empty as "", tool will not answer the question. However, note that some companies make compulsory to be answered
 gender = "Male"                 # "Male", "Female", "Other", "Decline" or ""

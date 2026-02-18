@@ -21,6 +21,7 @@ import csv
 import re
 import time
 import pyautogui
+import base64
 
 # Set CSV field size limit to prevent field size errors
 csv.field_size_limit(1000000)  # Set to 1MB instead of default 131KB
@@ -138,7 +139,7 @@ def login_LN() -> None:
             print_lg("Couldn't find username field.")
             # print_lg(e)
         try:
-            text_input_by_ID(driver, "password", password, 1)
+            text_input_by_ID(driver, "password", base64.b64decode(password).decode(), 1)
         except Exception as e:
             print_lg("Couldn't find password field.")
             # print_lg(e)
@@ -418,8 +419,7 @@ def get_job_description(
             experience_required = "Error in extraction"
             print_lg("Unable to extract years of experience required!")
             # print_lg(e)
-    finally:
-        return jobDescription, experience_required, skip, skipReason, skipMessage
+    return jobDescription, experience_required, skip, skipReason, skipMessage
         
 
 

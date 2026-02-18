@@ -19,8 +19,8 @@ version:    24.12.3.10.30
 
 
 # Login Credentials for LinkedIn (Optional)
-username = ""       # Enter your username in the quotes
-password = "example_password"           # Enter your password in the quotes
+username = "rockerprashantsuman@gmail.com"       # Enter your username in the quotes
+password = "enImVEEkNTpVTEQjUSRY"           # Enter your password in the quotes
 
 
 ## Artificial Intelligence (Beta Not-Recommended)
