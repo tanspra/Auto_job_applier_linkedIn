@@ -1,31 +1,14 @@
-'''
-Author:     Sai Vignesh Golla
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
-
-Copyright (C) 2024 Sai Vignesh Golla
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-            
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
-
-Support me: https://github.com/sponsors/GodsScion
-
-version:    26.01.20.5.08
-'''
-
-
 ###################################################### LINKEDIN SEARCH PREFERENCES ######################################################
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Software Developer", "Java Developer", "Backend Developer", "SDE", "SDE 1", "SDE 2"]
+search_terms = ["Software Developer", "Java Developer", "Backend Developer", "SDE"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
 search_location = "India"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
-switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
+switch_number = 5                 # Only numbers greater than 0... Don't put in quotes
 
 # Do you want to randomize the search order for search_terms?
 randomize_search_order = True     # True of False, Note: True or False are case-sensitive
@@ -49,7 +32,7 @@ This is below format: QUESTION = VALID_ANSWER
 '''
 
 sort_by = "Most recent"                       # "Most recent", "Most relevant" or ("" to not select) 
-date_posted = "Past week"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
+date_posted = "Past 24 hours"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
 salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+"
 
 easy_apply_only = True             # True or False, Note: True or False are case-sensitive
@@ -108,19 +91,4 @@ current_experience = 5             # Integers > -2 (Ex: -1, 0, 1, 2, 3, 4...)
 
 
 
-############################################################################################################
-'''
-THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
-
-Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
-
-Support my work on <PATREON_LINK>. Together, we can help more job seekers.
-
-As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
-
-Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
-
-Gratefully yours 🙏🏻,
-Sai Vignesh Golla
-'''
 ############################################################################################################

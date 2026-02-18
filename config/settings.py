@@ -1,20 +1,3 @@
-'''
-Author:     Sai Vignesh Golla
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
-
-Copyright (C) 2024 Sai Vignesh Golla
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-            
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
-
-Support me: https://github.com/sponsors/GodsScion
-
-version:    26.01.20.5.08
-'''
-
-
 ###################################################### CONFIGURE YOUR BOT HERE ######################################################
 
 # >>>>>>>>>>> LinkedIn Settings <<<<<<<<<<<
@@ -71,7 +54,7 @@ click_gap = 1                       # Enter max allowed secs to wait approximate
 run_in_background = False           # True or False, Note: True or False are case-sensitive ,   If True, this will make pause_at_failed_question, pause_before_submit and run_in_background as False
 
 # If you want to disable extensions then set disable_extensions as True (Better for performance)
-disable_extensions = False          # True or False, Note: True or False are case-sensitive
+disable_extensions = True          # True or False, Note: True or False are case-sensitive
 
 # Run in safe mode. Set this true if chrome is taking too long to open or if you have multiple profiles in browser. This will open chrome in guest profile!
 safe_mode = True                    # True or False, Note: True or False are case-sensitive
@@ -91,29 +74,4 @@ showAiErrorAlerts = False            # True or False, Note: True or False are ca
 # Use ChatGPT for resume building (Experimental Feature can break the application. Recommended to leave it as False) 
 # use_resume_generator = False       # True or False, Note: True or False are case-sensitive ,   This feature may only work with 'stealth_mode = True'. As ChatGPT website is hosted by CloudFlare which is protected by Anti-bot protections!
 
-
-
-
-
-
-
-
-
-
-
-############################################################################################################
-'''
-THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
-
-Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
-
-Support my work on <PATREON_LINK>. Together, we can help more job seekers.
-
-As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
-
-Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
-
-Gratefully yours 🙏🏻,
-Sai Vignesh Golla
-'''
 ############################################################################################################
